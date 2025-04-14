@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #87ceeb; /* Cor do céu */
+}
+
+#gameArea {
+    position: relative;
+    width: 100vw; /* Tamanho ajustado para tela cheia */
+    height: 100vh; /* Tamanho ajustado para tela cheia */
+    overflow: hidden;
+    background: url('background_brasilia.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#character {
+    position: absolute;
+    bottom: 0;
+    left: 50px; /* Posição inicial do motociclista */
+    width: 200px;
+    height: 200px;
+    background-color: none; /* Cor do personagem */
+}
+
+.obstacle {
+    position: absolute;
+    bottom: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #2f4f4f;
+    border-radius: 5px;
+}
