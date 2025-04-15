@@ -25,7 +25,7 @@ const characters = {
     'Cláudio Prime Silvano Sales': 'images/claudio_prime.png',
     'Lucas Ramon': 'images/lucas.png',
     'Luis Eduardo': 'images/luis.png',
-    'Tenenente Anderson': 'images/tenente_anderson.png',
+    'Tenente Anderson': 'images/tenente_anderson.png',
     // Adicione mais personagens e suas imagens conforme necessário
 };
 
