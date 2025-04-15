@@ -29,8 +29,7 @@ body {
 .obstacle {
     position: absolute;
     bottom: 50px;
-    width: 30px;
-    height: 30px;
-    background-color: #2f4f4f;
-    border-radius: 5px;
+    width: 100px; /* Ajuste para a largura da imagem do cachorro */
+    height: 100px; /* Ajuste para a altura da imagem do cachorro */
+    background-color: none; /* Remover o fundo */
 }
